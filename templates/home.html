@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        ul {
+            padding-left: 20px;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #666;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Plant Disease Detection</h1>
+        <p>Using Deep Learning to Help Agriculture</p>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Overview of Plant Health Monitoring System Using CNN</h2>
+            <p><strong>Project Title:</strong> Plant Health Monitoring System</p>
+            <p><strong>Team Members:</strong></p>
+            <ul>
+                <li>Nikunj Tyagi</li>
+                <li>Pragati Tomar</li>
+                <li>Neha Sharma</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Introduction</h2>
+            <p>The Plant Health Monitoring System is an innovative project designed to assist farmers and agriculturists in identifying diseases in plants at an early stage. Using Convolutional Neural Networks (CNN), the system provides accurate and efficient plant disease detection through image analysis. This project aims to contribute to sustainable agriculture by reducing crop losses and improving productivity.</p>
+        </div>
+
+        <div class="section">
+            <h2>Objectives and Key Features</h2>
+            <p><strong>Objective:</strong> The primary objective of this system is to develop a user-friendly platform that leverages deep learning (CNN) to:</p>
+            <ul>
+                <li>Detect plant diseases using leaf images.</li>
+                <li>Classify the health status of plants (healthy or diseased).</li>
+                <li>Suggest actionable measures to manage or prevent diseases.</li>
+            </ul>
+
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Image Processing: Automated analysis of plant leaf images for disease detection.</li>
+                <li>Deep Learning Model: A CNN-based architecture optimized for high accuracy in classifying plant health.</li>
+                <li>Real-Time Predictions: Quick results to help farmers take timely action.</li>
+                <li>Multi-Class Support: Detection of multiple plant diseases across various plant species.</li>
+            </ul>
+        </div>
+
+        <!-- New Inference Section -->
+        <div class="section">
+            <h2>Plant Disease Inference</h2>
+            <p>Upload a leaf image to predict the health status of the plant. The system will detect diseases and provide real-time predictions based on the uploaded image.</p>
+            <a href="/inference" class="btn">Start Inference</a> <!-- Link to Inference Page -->
+        </div>
+
+        <div class="section">
+            <h2>Explore More</h2>
+            <a href="/about" class="btn">Learn More About the Project</a>
+            <a href="/model" class="btn">View Model</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Plant Disease Detection Project. All rights reserved.
+    </footer>
+</body>
+</html>
